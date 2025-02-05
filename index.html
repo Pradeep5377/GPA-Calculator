@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>GPA Calculator</h1>
+    <div class="input">
+        <h3>Enter the number of Subjects you have :</h3> 
+
+        <input type="number" id="subject-count" placeholder="Total Number of Subjects"></input> 
+        <button type="button" onclick="generateSubjects()">OK</button>
+
+        <div id ="subject-main"></div>
+        <br>
+        <button type="button" onclick="calculateScore()" id = "calc-button" style="display: none;">Calculate GPA</button>
+        <br>
+        <h2 id="gpa"></h2>
+    </div>
+
+</body>
+</html>
